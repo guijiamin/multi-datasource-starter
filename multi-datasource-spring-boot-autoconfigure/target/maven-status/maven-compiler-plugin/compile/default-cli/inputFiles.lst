@@ -1,0 +1,13 @@
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/mybatis/scanner/MapperScannerRegistrar.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/factory/DruidDataSourceFactory.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/factory/MapperScannerConfigurerFactory.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/order/OrderDataSourceProperties.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/user/UserDataSourceAutoConfiguration.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/statistics/StatisticsMybatisAutoConfiguration.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/order/OrderDataSourceAutoConfiguration.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/DataSourceProperties.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/factory/MybatisSqlSessionFactory.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/statistics/StatisticsDataSourceSAutoConfiguration.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/mybatis/scanner/MapperScanner.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/user/UserDataSourceProperties.java
+/Users/guijiamin/Project/Git/multi-datasource-starter/multi-datasource-spring-boot-autoconfigure/src/main/java/com/study/multi/datasource/statistics/StatisticsDataSourceProperties.java

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.study.multi.datasource.commodity.CommodityDataSourceAutoConfiguration,\
+com.study.multi.datasource.user.UserDataSourceAutoConfiguration

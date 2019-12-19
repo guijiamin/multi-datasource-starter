@@ -1,0 +1,26 @@
+commodity:
+  datasource:
+    enabled: true
+    url: jdbc:mysql://localhost:3306/test_commodity?allowMultiQueries=true
+    user-name: root
+    password: root
+    driver-class: com.mysql.jdbc.Driver
+    wall-filter: false
+    basePackage: com.study.sample.dao.commodity
+statistics:
+  datasource:
+    enabled: false
+    url: jdbc:clickhouse://localhost:8123/statistics
+    user-name: root
+    password: root
+    driver-class: ru.yandex.clickhouse.ClickHouseDriver
+    wall-filter: false
+user:
+  datasource:
+    enabled: true
+    url: jdbc:mysql://localhost:3306/test_user?allowMultiQueries=true
+    user-name: root
+    password: root
+    driver-class: com.mysql.jdbc.Driver
+    wall-filter: false
+    basePackage: com.study.sample.dao.user

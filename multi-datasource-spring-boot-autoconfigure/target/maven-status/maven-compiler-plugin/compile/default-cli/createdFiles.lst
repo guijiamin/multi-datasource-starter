@@ -1,0 +1,14 @@
+META-INF/spring-configuration-metadata.json
+com/study/multi/datasource/statistics/StatisticsMybatisAutoConfiguration.class
+com/study/multi/datasource/statistics/StatisticsDataSourceProperties.class
+com/study/multi/datasource/mybatis/scanner/MapperScannerRegistrar.class
+com/study/multi/datasource/DataSourceProperties.class
+com/study/multi/datasource/order/OrderDataSourceAutoConfiguration.class
+com/study/multi/datasource/factory/MybatisSqlSessionFactory.class
+com/study/multi/datasource/factory/MapperScannerConfigurerFactory.class
+com/study/multi/datasource/factory/DruidDataSourceFactory.class
+com/study/multi/datasource/mybatis/scanner/MapperScanner.class
+com/study/multi/datasource/user/UserDataSourceProperties.class
+com/study/multi/datasource/user/UserDataSourceAutoConfiguration.class
+com/study/multi/datasource/statistics/StatisticsDataSourceSAutoConfiguration.class
+com/study/multi/datasource/order/OrderDataSourceProperties.class

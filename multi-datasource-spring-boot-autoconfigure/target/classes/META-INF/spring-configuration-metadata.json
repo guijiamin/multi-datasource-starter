@@ -1,0 +1,100 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.study.multi.datasource.commodity.CommodityDataSourceProperties",
+      "name": "commodity.datasource",
+      "type": "com.study.multi.datasource.commodity.CommodityDataSourceProperties"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.statistics.StatisticsDataSourceProperties",
+      "name": "statistics.datasource",
+      "type": "com.study.multi.datasource.statistics.StatisticsDataSourceProperties"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.user.UserDataSourceProperties",
+      "name": "user.datasource",
+      "type": "com.study.multi.datasource.user.UserDataSourceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.study.multi.datasource.commodity.CommodityDataSourceProperties",
+      "name": "commodity.datasource.driver-class",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.commodity.CommodityDataSourceProperties",
+      "name": "commodity.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.commodity.CommodityDataSourceProperties",
+      "name": "commodity.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.commodity.CommodityDataSourceProperties",
+      "name": "commodity.datasource.user-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.commodity.CommodityDataSourceProperties",
+      "defaultValue": false,
+      "name": "commodity.datasource.wall-filter",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.statistics.StatisticsDataSourceProperties",
+      "name": "statistics.datasource.driver-class",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.statistics.StatisticsDataSourceProperties",
+      "name": "statistics.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.statistics.StatisticsDataSourceProperties",
+      "name": "statistics.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.statistics.StatisticsDataSourceProperties",
+      "name": "statistics.datasource.user-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.statistics.StatisticsDataSourceProperties",
+      "defaultValue": false,
+      "name": "statistics.datasource.wall-filter",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.user.UserDataSourceProperties",
+      "name": "user.datasource.driver-class",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.user.UserDataSourceProperties",
+      "name": "user.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.user.UserDataSourceProperties",
+      "name": "user.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.user.UserDataSourceProperties",
+      "name": "user.datasource.user-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.multi.datasource.user.UserDataSourceProperties",
+      "defaultValue": false,
+      "name": "user.datasource.wall-filter",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
