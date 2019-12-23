@@ -11,10 +11,11 @@ statistics:
   datasource:
     enabled: true
     url: jdbc:clickhouse://localhost:8123/test_statistics
-    user-name: root
-    password: root
+    user-name:
+    password: 
     driver-class: ru.yandex.clickhouse.ClickHouseDriver
     wall-filter: false
+    basePackage: com.study.sample.dao.statistics
 user:
   datasource:
     enabled: true

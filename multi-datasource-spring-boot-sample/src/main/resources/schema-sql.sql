@@ -7,7 +7,7 @@ create table if not exists `commodity` (
     `create_time` timestamp not null default current_timestamp,
     `update_time` timestamp not null default current_timestamp on update current_timestamp,
     primary key (`id`)
-)default charset=utf8;
+) default charset=utf8;
 
 use test_user;
 drop table if exists `user`;
@@ -17,4 +17,4 @@ create table if not exists `user` (
     `create_time` timestamp not null default current_timestamp,
     `update_time` timestamp not null default current_timestamp on update current_timestamp,
     primary key (`id`)
-)default charset =utf8;
+) default charset =utf8;

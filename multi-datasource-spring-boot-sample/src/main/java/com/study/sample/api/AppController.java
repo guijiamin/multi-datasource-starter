@@ -1,8 +1,10 @@
 package com.study.sample.api;
 
 import com.study.sample.entity.Commodity;
+import com.study.sample.entity.Statistics;
 import com.study.sample.entity.User;
 import com.study.sample.service.CommodityService;
+import com.study.sample.service.StatisticsService;
 import com.study.sample.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,6 +28,8 @@ public class AppController {
     private UserService userService;
     @Resource
     private CommodityService commodityService;
+    @Resource
+    private StatisticsService statisticsService;
 
     @GetMapping("user/findAll")
     public List<User> findAllUser() {
@@ -35,5 +39,10 @@ public class AppController {
     @GetMapping("commodity/findAll")
     public List<Commodity> findAllOrder() {
         return commodityService.findAll();
+    }
+
+    @GetMapping("statistics/findAll")
+    public List<Statistics> findAllStatistics() {
+        return statisticsService.findAll();
     }
 }
