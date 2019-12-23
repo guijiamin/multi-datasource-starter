@@ -28,6 +28,7 @@
         <druid.version>1.1.8</druid.version>
         <mybatis-spring-boot.version>1.3.2</mybatis-spring-boot.version>
         <clickhouse-jdbc.version>0.1.39</clickhouse-jdbc.version>
+        <sharding-jdbc-core.version>3.1.0</sharding-jdbc-core.version>
     </properties>
 
     <dependencyManagement>
@@ -56,6 +57,11 @@
                 <groupId>ru.yandex.clickhouse</groupId>
                 <artifactId>clickhouse-jdbc</artifactId>
                 <version>${clickhouse-jdbc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.shardingsphere</groupId>
+                <artifactId>sharding-jdbc-core</artifactId>
+                <version>${sharding-jdbc-core.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
