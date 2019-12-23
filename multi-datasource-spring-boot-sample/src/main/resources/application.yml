@@ -9,8 +9,8 @@ commodity:
     basePackage: com.study.sample.dao.commodity
 statistics:
   datasource:
-    enabled: false
-    url: jdbc:clickhouse://localhost:8123/statistics
+    enabled: true
+    url: jdbc:clickhouse://localhost:8123/test_statistics
     user-name: root
     password: root
     driver-class: ru.yandex.clickhouse.ClickHouseDriver

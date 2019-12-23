@@ -27,7 +27,7 @@ import java.sql.SQLException;
 @Configuration
 @Import({StatisticsDataSourceProperties.class})
 @ConditionalOnProperty(name = "statistics.datasource.enabled", havingValue = "true")
-@MapperScanner(basePackages = {"${user.datasource.basePackage}"}, sqlSessionFactoryRef = "statisticsSqlSessionFactory")
+@MapperScanner(basePackages = {"${statistics.datasource.basePackage}"}, sqlSessionFactoryRef = "statisticsSqlSessionFactory")
 public class StatisticsDataSourceAutoConfiguration {
 
     @Bean(name = "statisticsDataSource")
