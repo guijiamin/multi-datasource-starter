@@ -15,8 +15,14 @@
         <module>multi-datasource-spring-boot-sample</module>
     </modules>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.5.RELEASE</version>
+        <relativePath/>
+    </parent>
+
     <properties>
-        <spring-boot.version>2.0.5.RELEASE</spring-boot.version>
         <lombok-version>1.18.8</lombok-version>
         <mysql-connector-java.version>5.1.6</mysql-connector-java.version>
         <druid.version>1.1.8</druid.version>
@@ -26,13 +32,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
@@ -53,11 +52,6 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis-spring-boot.version}</version>
             </dependency>
-<!--            <dependency>-->
-<!--                <groupId>org.mybatis</groupId>-->
-<!--                <artifactId>mybatis-spring</artifactId>-->
-<!--                <version>${mybatis-spring.version}</version>-->
-<!--            </dependency>-->
             <dependency>
                 <groupId>ru.yandex.clickhouse</groupId>
                 <artifactId>clickhouse-jdbc</artifactId>
@@ -65,11 +59,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-    </dependencies>
 </project>
